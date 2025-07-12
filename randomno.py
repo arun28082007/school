@@ -14,6 +14,8 @@ for number in range(1, 11):
 '''
 
 for i in range(4):
-   #print(int(random.randint(1, 4  )))  # Generates 4 random floats between 1 and 4
-    print(int(100 + random.randint(1, 4)))  # Generates 4 random integers between 100 and 104
+    #print(int(random.randint(1, 4  )))  # Generates 4 random floats between 1 and 4
+    #print(int(100 + random.randint(1, 4)))  # Generates 4 random integers between 100 and 104
+    print(int(random.random() * 5 + 5))  # Generates 4 random integers between 5 and 9
+
 
