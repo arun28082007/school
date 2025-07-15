@@ -28,9 +28,27 @@ for i in range(1000):
 '''
 
 
-
+'''
 city = ['delhi', 'mumbai', 'chennai', 'kolkata',]
 pick = random.randint(0,3)
 for i in city:
     for j in range(1, pick):
         print(i, end=' ')
+    print()
+# This code randomly selects a city from the list and prints it a number of times
+# equal to the random number generated between 1 and 3.
+
+'''
+
+
+s = 0
+L = [1, 2, "three", "four", 4,5]
+for i in L:
+    if isinstance(i, int):
+        s += i
+print(s)  # This will print the sum of integers in the list L
+
+
+
+
+
