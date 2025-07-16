@@ -1,5 +1,8 @@
-s = input("Enter a string: ")
-RS = "" ""
-for ch in s:
-    RS = ch + s
-print(s + RS)
+c= 12
+def show():
+    global c
+    c = c + 12
+    print("Inside show:", c)
+show()
+c= 10
+print("Outside show:", c)
