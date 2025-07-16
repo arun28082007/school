@@ -12,4 +12,10 @@ for i in range(100):
 
 """
 
-def 
+def changelist(m,n):
+    m[0] = 25
+    n[0] = [2,3]
+l1 = [-11,21]
+l2 = [14,23]
+changelist(l1, l2)
+print(l1[0], '#', l2[0])
